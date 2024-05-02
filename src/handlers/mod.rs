@@ -2,6 +2,8 @@
 //! 
 
 use actix_web::{post, web, HttpResponse, Responder};
+use tmflib::tmf648::quote::Quote;
+use tmflib::common::event::EventPayload;
 
 use crate::payloads::RequestPayload;
 
